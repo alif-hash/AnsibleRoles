@@ -1,3 +1,3 @@
 [servers]
-lab-proxy-keepalive1 ansible_host=192.168.139.10
-lab-proxy-keepalive2 ansible_host=192.168.139.11
+lab-proxy-keepalive1 ansible_host=192.168.139.10 ansible_user=alif
+lab-proxy-keepalive2 ansible_host=192.168.139.11 ansible_user=alif
