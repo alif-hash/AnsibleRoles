@@ -1,12 +1,12 @@
 # Playbook to call multiple roles to configure systems
 - name: Configure systems
-  hosts: lab-proxy-keepalive1
+  hosts: 192.168.139.10
   become: yes
 
   tasks:
 
 - name: Call Roles
-  hosts: lab-proxy-keepalive1
+  hosts: 192.168.139.10
   roles:
    #- hostname
    #- firewalld
